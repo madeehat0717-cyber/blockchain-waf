@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-slate-900 font-sans;
+}
+
+.glass-card {
+  @apply bg-slate-50 border border-slate-200 rounded-sm shadow-sm overflow-hidden;
+}
+
+.pill-green {
+  @apply bg-emerald-600/10 text-emerald-700 border border-emerald-600/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider;
+}
+
+.pill-red {
+  @apply bg-red-600/10 text-red-600 border border-red-600/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider;
+}
+
+.pill-amber {
+  @apply bg-amber-500/10 text-amber-600 border border-amber-600/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider;
+}
+
+.pill-cyan {
+  @apply bg-blue-600/10 text-blue-700 border border-blue-600/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider;
+}
